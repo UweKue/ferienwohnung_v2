@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haus Waldesruh - Urlaub in Lubmin</title>
+    <meta name="description"
+        content="Erleben Sie erholsamen Urlaub im Haus Waldesruh in Lubmin. Moderne Ferienwohnungen in Strandnähe.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome (using existing local or CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="Haus Waldesruh Logo">
+                <span>Haus Waldesruh</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="beschreibung.html">Beschreibung</a></li>
+                <li><a href="#apartments">Wohnungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#" class="btn-book">Buchen</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Urlaub zwischen Wald und Wellen</h1>
+            <p>Entspannen Sie in unseren liebevoll eingerichteten Ferienwohnungen in Lubmin, nur 300m vom Strand
+                entfernt.</p>
+            <a href="#apartments" class="btn-primary">Wohnung entdecken</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-about">
+        <div class="container grid-2">
+            <div class="about-text">
+                <h2>Willkommen im Haus Waldesruh</h2>
+                <p>Genießen Sie die Ruhe und die frische Ostseeluft. Unser Haus liegt direkt am Küstenwald, nur wenige
+                    Gehminuten vom feinsandigen Strand entfernt.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-umbrella-beach"></i> 300m zum Strand</li>
+                    <li><i class="fas fa-wifi"></i> Kostenloses WLAN</li>
+                    <li><i class="fas fa-parking"></i> Privatparkplatz</li>
+                    <li><i class="fas fa-tree"></i> Eigener Garten & Grill</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <!-- Using one of the existing images -->
+                <img src="../images/2024-06-18.jpg" alt="Haus Waldesruh Außenansicht">
+            </div>
+        </div>
+    </section>
+
+    <!-- Apartments Section -->
+    <section id="apartments" class="section-apartments">
+        <div class="container">
+            <h2 class="section-title">Unsere Wohnungen</h2>
+            <div class="apartments-grid">
+
+                <!-- Wohnung Fichte -->
+                <article class="apartment-card">
+                    <div class="card-image">
+                        <img src="../images/01-foto_hintergrund_website/aussen5_20190430_104106_fichte.jpg"
+                            alt="Wohnung Fichte">
+                        <div class="badge">48 m²</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Wohnung "Fichte"</h3>
+                        <p>Ideal für Paare und kleine Familien. Erdgeschoss mit eigener Terrasse und Blick ins Grüne.
+                        </p>
+                        <ul class="amenities">
+                            <li><i class="fas fa-bed"></i> 1 Schlafzimmer (3 Betten)</li>
+                            <li><i class="fas fa-couch"></i> Wohnzimmer mit Schlafsofa</li>
+                            <li><i class="fas fa-shower"></i> Modernes Bad</li>
+                        </ul>
+                        <button class="btn-secondary open-modal" data-modal="modal-fichte">Details ansehen</button>
+                    </div>
+                </article>
+
+                <!-- Wohnung Kiefer -->
+                <article class="apartment-card">
+                    <div class="card-image">
+                        <img src="../images/01-foto_hintergrund_website/aussen5_20190430_104106_kiefer.jpg"
+                            alt="Wohnung Kiefer">
+                        <div class="badge">48 m²</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Wohnung "Kiefer"</h3>
+                        <p>Gemütliches Apartment mit separatem Eingang und kompletter Ausstattung für Selbstversorger.
+                        </p>
+                        <ul class="amenities">
+                            <li><i class="fas fa-bed"></i> 1 Schlafzimmer (3 Betten)</li>
+                            <li><i class="fas fa-couch"></i> Wohnzimmer mit Schlafsofa</li>
+                            <li><i class="fas fa-utensils"></i> Volle Küchenzeile</li>
+                        </ul>
+                        <button class="btn-secondary open-modal" data-modal="modal-kiefer">Details ansehen</button>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Haus Waldesruh</h3>
+                    <p>Ihre Auszeit an der Ostsee.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Lubmin, Deutschland</p>
+                    <p><i class="fas fa-envelope"></i> info@haus-waldesruh.de</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <a href="../impressum.html">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Haus Waldesruh. Alle Rechte vorbehalten.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-fichte" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Wohnung "Fichte"</h2>
+            <div class="modal-body">
+                <div class="gallery-slider">
+                    <div class="slides">
+                        <img src="../images/02-Foto_WE_Fichte/Fichte_01.jpg" alt="Wohnung Fichte Wohnbereich" class="slide active">
+                        <img src="../images/02-Foto_WE_Fichte/Fichte_04.jpg" alt="Wohnung Fichte Essplatz" class="slide">
+                        <img src="../images/02-Foto_WE_Fichte/Fichte_09.jpg" alt="Wohnung Fichte Schlafzimmer" class="slide">
+                        <img src="../images/02-Foto_WE_Fichte/Fichte_15.jpg" alt="Wohnung Fichte Bad" class="slide">
+                    </div>
+                    <button class="slider-btn prev">&#10094;</button>
+                    <button class="slider-btn next">&#10095;</button>
+                </div>
+                <p>Unsere Wohnung "Fichte" bietet auf 48m² Platz für bis zu 4 Personen. Sie verfügt über ein separates Schlafzimmer, ein gemütliches Wohnzimmer mit Essbereich und eine voll ausgestattete Küchenzeile.</p>
+                <ul>
+                    <li>Größe: 48 m²</li>
+                    <li>Schlafzimmer: 1 Einzelbett & 1 Doppelbett</li>
+                    <li>Wohnzimmer: 1 Schlafsofa</li>
+                    <li>Ausstattung: TV, Kaffeemaschine, Wasserkocher, Mikrowelle</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-kiefer" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Wohnung "Kiefer"</h2>
+            <div class="modal-body">
+                <div class="gallery-slider">
+                    <div class="slides">
+                        <img src="../images/04-Foto_WE_Kiefer/Kiefer_1.jpg" alt="Wohnung Kiefer Wohnbereich" class="slide active">
+                        <img src="../images/04-Foto_WE_Kiefer/Kiefer_2.jpg" alt="Wohnung Kiefer Essplatz" class="slide">
+                        <img src="../images/04-Foto_WE_Kiefer/Kiefer_5.jpg" alt="Wohnung Kiefer Sofa" class="slide">
+                        <img src="../images/04-Foto_WE_Kiefer/Kiefer_8.jpg" alt="Wohnung Kiefer Bad" class="slide">
+                    </div>
+                    <button class="slider-btn prev">&#10094;</button>
+                    <button class="slider-btn next">&#10095;</button>
+                </div>
+                <p>Die Wohnung "Kiefer" ist baugleich zur Wohnung Fichte und besticht durch ihren gemütlichen Charme. Ideal für entspannte Tage an der Ostsee.</p>
+                <ul>
+                    <li>Größe: 48 m²</li>
+                    <li>Schlafzimmer: 1 Einzelbett & 1 Doppelbett</li>
+                    <li>Wohnzimmer: 1 Schlafsofa</li>
+                    <li>Ausstattung: TV, Kaffeemaschine, Wasserkocher, Mikrowelle</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
