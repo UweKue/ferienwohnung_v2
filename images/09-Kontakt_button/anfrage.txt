@@ -1,0 +1,31 @@
+Kontaktanfrage
+
+Klick auf Button öffnet den emailbrowser des Anfragenden und die Email 
+
+Lubmin-Waldesruh@t-online.de
+
+wird bei Empfänger eingetragen
+
+xxxxxdas Folgende nicht, Datenschutz/ Impressum etc..... xxxx
+
+" Sehr geehrter Gast,
+Hier können Sie Ihre Kontaktanfrage per Email stellen.
+Wir sind bemüht, Ihnen zeitnah zu antworten.
+Mit freundlichen Grüßen
+Dr. K. Kühnemann"
+
+Familiename, Ansprechpartner:
+Emailadresse:
+optional Telefonnummer:
+
+gewünschter Buchungszeitraum:
+Anreise:
+Tag/ Monat/ Jahr
+[01-07-2025]
+
+Abreise:
+Tag/ Monat/ Jahr
+[01-01-2025]
+
+
+optional Fragen zur Ferienwohnung:
